@@ -1,0 +1,35 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation: spaceJam 120s linear infinite;
+}
+
+.background {
+  background: url("https://denis-creative.com/wp-content/uploads/2019/03/background.png");
+}
+
+.midground {
+  background: url("https://denis-creative.com/wp-content/uploads/2019/03/midground.png");
+  animation-duration: 60s;
+}
+
+.foreground {
+  background: url("https://denis-creative.com/wp-content/uploads/2019/03/foreground.png");
+  animation-duration: 30s;
+}
+
+@keyframes spaceJam {
+  100% {
+    background-position: -2500px -500px;
+  }
+}
+
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

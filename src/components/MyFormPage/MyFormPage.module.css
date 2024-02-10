@@ -1,0 +1,35 @@
+.formPage {
+  height: 100%;
+  width: 100%;
+  flex-shrink: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.listBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: transform 1000ms;
+}
+.isActive {
+  transform: rotateY(180deg);
+}
